@@ -30,7 +30,7 @@
 					</div>
 					<div class="col-md-4 mb-3">
 						<label for="">Brand</label>
-						<select class="form-select" style="background-color: #e6e7f0;">
+						<select class="form-select" name="brand_id" style="background-color: #e6e7f0;">
 						  @if($product->brand != null )	
 							<option>
 								&nbsp;&nbsp;{{$product->brand->name}}

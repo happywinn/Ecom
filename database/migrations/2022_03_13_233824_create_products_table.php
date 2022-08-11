@@ -18,7 +18,7 @@ class CreateProductsTable extends Migration
             $table->bigInteger('cate_id');
             $table->string('name');
             $table->string('type');
-            $table->bigInteger('brand_id');
+            $table->bigInteger('brand_id')->nullable();
             $table->mediumText('small_description');
             $table->longText('description');
             $table->string('original_price');
