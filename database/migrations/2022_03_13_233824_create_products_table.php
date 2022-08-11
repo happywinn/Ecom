@@ -22,7 +22,7 @@ class CreateProductsTable extends Migration
             $table->mediumText('small_description');
             $table->longText('description');
             $table->string('original_price');
-            $table->string('selling_price');
+            $table->bigInteger('selling_price');
             $table->string('image');
             $table->string('qty');
             $table->string('tax');
