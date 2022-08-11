@@ -40,7 +40,7 @@ class CategoryController extends Controller
     	}
 
     	$category->name = $req->input('name');
-    	$category->slug = $req->input('slug');
+    	$category->type = $req->input('type');
     	$category->description = $req->input('description');
     	$category->status = $req->input('status') == TRUE?'1':'0'; // input checkbox 
     	$category->popular = $req->input('popular') == TRUE?'1':'0';
@@ -76,7 +76,7 @@ class CategoryController extends Controller
             $category->image = $filename; 
         }
         $category->name = $req->input('name');
-        $category->slug = $req->input('slug');
+        $category->type = $req->input('type');
         $category->description = $req->input('description');
         $category->status = $req->input('status') == TRUE?'1':'0';
         $category->popular = $req->input('popular') == TRUE?'1':'0';
