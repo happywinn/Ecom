@@ -11,7 +11,6 @@
 				<div class="row">
 					<div class="col-md-12 mb-3">
 						<select class="form-select" name="cate_id">
-							<option>Select a Category</option>
 							@foreach($category as $item)
 							<option value="{{$item->id}}">
 								{{$item->name}}
@@ -30,7 +29,7 @@
 					<div class="col-md-4 mb-3">
 						<label for="">Brand</label>
 						<select class="form-select" name="brand_id">
-							<option>Select a Brand</option>
+							
 							@foreach($brands as $brand)
 							<option value="{{$item->id}}">
 								{{$brand->name}}
