@@ -11,7 +11,7 @@
 				<div class="row">
 					<div class="col-md-12 mb-3">
 						<label for="">Category</label>
-						<select class="form-select" style="background-color: #e6e7f0;">
+						<select class="form-select"  style="background-color: #e6e7f0;">
 							<option>&nbsp;&nbsp;{{$product->category->name}}</option>
 							@foreach($category as $item)
 							<option value="{{$item->id}}">
@@ -31,7 +31,7 @@
 					<div class="col-md-4 mb-3">
 						<label for="">Brand</label>
 						<select class="form-select" name="brand_id" style="background-color: #e6e7f0;">
-						  @if($product->brand != null )	
+						  @if($product->brand != null )
 							<option>
 								&nbsp;&nbsp;{{$product->brand->name}}
 							</option>
@@ -39,7 +39,7 @@
 						  	<option>&nbsp;&nbsp;Select a Brand</option>
 						  @endif
 							@foreach($brands as $brand)
-							<option value="{{$item->id}}">
+							<option value="{{$brand->id}}">
 								&nbsp;&nbsp;{{$brand->name}}
 							</option>
 							@endforeach
