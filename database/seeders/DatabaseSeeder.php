@@ -17,6 +17,7 @@ class DatabaseSeeder extends Seeder
         // \App\Models\Coupon::factory(10)->create();
 
         $this->call(CouponsTableSeeder::class);
+        $this->call(UserTableSeeder::class);
 
     }
 }
