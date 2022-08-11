@@ -18,6 +18,7 @@ class CreateProductsTable extends Migration
             $table->bigInteger('cate_id');
             $table->string('name');
             $table->string('type');
+            $table->bigInteger('brand_id');
             $table->mediumText('small_description');
             $table->longText('description');
             $table->string('original_price');
@@ -25,6 +26,7 @@ class CreateProductsTable extends Migration
             $table->string('image');
             $table->string('qty');
             $table->string('tax');
+            $table->string('discount')->nullable();
             $table->tinyInteger('status')->default(0);
             $table->tinyInteger('trending')->default(0);
             $table->tinyInteger('new_arrival')->default(0);
