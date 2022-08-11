@@ -18,6 +18,8 @@ class CreateCouponsTable extends Migration
             $table->string('code')->unique();
             $table->string('type');
             $table->integer('value')->nullable();
+            // $table->string('users')->nullable();
+            // $table->integer('percent_off')->nullable();
             $table->date('expire_date');
             $table->tinyInteger('status');
             $table->timestamps();
