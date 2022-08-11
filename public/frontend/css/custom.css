@@ -1,0 +1,348 @@
+
+/**********************************/
+/*********  navbar header *********/
+/**********************************/
+.logo {
+  color: rgb(37, 16, 16);
+  font-size: 22px;
+  letter-spacing: 1px;
+  cursor: pointer;
+  font-family: Georgia, serif !important;
+}
+
+.secondem {
+  color: rgb(232, 61, 103);
+}
+
+
+/**********************************/
+/*********  sidebar custom *********/
+/**********************************/
+.sidebar-custom .category-types{
+  font-size:18px !important;
+  font-weight: 500;
+}
+
+
+/**********************************/
+/********* trending categories *********/
+/**********************************/
+.trending-categories a{
+  text-decoration: none;
+  color: #000;
+}
+
+.trending-categories .label{
+  
+  margin-top: 12px;
+  border: 3px solid #20b8b124;
+  border-radius: 3px;
+  overflow: hidden;
+  flex: 1 1;
+}
+
+.trending-categories .util-left{
+  float: left;
+  display: inline;
+}
+.trending-categories .main-title {
+  padding-right: 16px;
+  font-size: 24px;
+  line-height: 30px;
+  font-weight: 700;
+  color: #506a84;
+  text-transform: Uppercase;
+}
+
+
+
+.trending-categories .custom-card-shadow:hover {
+  box-shadow: 0 4px 4px #000;
+  transition: box-shadow 0.2s ease-in-out;
+} 
+
+
+/**********************************/
+/********* New Arrival Products *********/
+/**********************************/
+.new-arrival span{
+  font-size: 15px;
+  font-weight: 600;
+  color: #000;
+}
+.new-arrival p {
+         font-size: 12px;
+         font-weight: 500;
+         color: #000;
+      }
+.new-arrival h4 {
+  margin-left: 30px;
+  padding: 5px;
+}
+
+
+.new-arrival .arrival-row>* {
+  max-width: 100%;
+  padding-right: calc(var(--bs-gutter-x) * .0) !important;
+  padding-left: calc(var(--bs-gutter-x) * .0) !important;
+  margin-top: var(--bs-gutter-y);
+}
+
+/**********************************/
+/********* Category page *********/
+/**********************************/
+.category-header a{
+  text-decoration:none;
+}
+.box p {
+    display: -webkit-box;
+    -webkit-line-clamp: 3;
+    -webkit-box-orient: vertical;  
+    overflow: hidden;
+}
+.category-body a{
+  text-decoration:none !important;
+}
+/*------ end -----*/
+
+.checkout-form label{
+  font-size: 12px;
+  font-weight: 700;
+}
+
+.checkout-form input{
+  font-size: 14px;
+  padding: 5px;
+  font-weight: 400;
+}
+.order-details label{
+	font-size: 12px;
+	font-weight: 700;
+}
+
+.order-details div{
+	font-size: 14px;
+	padding: 5px !important; 
+}
+
+
+.footer-custom{
+	background-color: #000;
+}
+
+.footer-custom ul{
+	list-style-type: none !important;
+	padding: 0;
+}
+
+.footer-custom a,
+.footer-custom p,
+.footer-custom h6{
+	text-decoration: none;
+	color: #fff;
+}
+
+/* rating */
+.rating-css div {
+    color: #ffe400;
+    font-size: 30px;
+    font-family: sans-serif;
+    font-weight: 800;
+    text-align: center;
+    text-transform: uppercase;
+    padding: 20px 0;
+  }
+  .rating-css input {
+    display: none;
+  }
+  .rating-css input + label {
+    font-size: 60px;
+    text-shadow: 1px 1px 0 #8f8420;
+    cursor: pointer;
+  }
+  .rating-css input:checked + label ~ label {
+    color: #b4afaf;
+  }
+  .rating-css label:active {
+    transform: scale(0.8);
+    transition: 0.3s ease;
+  }
+
+/* End of Star Rating */
+
+.checked {
+  color: #ffd900;
+}
+
+
+/*---------- Navbar ------*/
+.navbar-custom{
+  background-color: #fcfcfc !important;
+}
+
+
+.special-home-right .bg-blue {
+  background-color: rgb(240 52 102) !important;
+  border-radius: 5px !important;
+}
+
+.special-home-right .bg-blue-sm {
+  background-color: rgb(130 116 109) !important;
+  border: none !important;
+}
+
+.navbar-custom .header-font-custom {
+  color: #2f2222 !important;
+  font-size: 1rem;
+}
+
+
+/*-----------Index Page --------*/
+.indexpage-custom
+
+.indexpage-custom .padding-y-sm {
+      padding-top: 20px;
+      padding-bottom: 20px;
+      background-color: #a6a0a042;  
+}
+
+.indexpage-custom .float-right {
+  float: right !important;
+}
+
+
+
+.indexpage-custom a {
+  color: #07080a;
+  text-decoration: none;
+  background-color: transparent;
+  font-size: 1rem;
+}
+
+.card-product-grid {
+  display: none;
+}
+
+.card-product-grid .info-wrap {
+  overflow: hidden;
+  padding: 18px 20px;
+}
+
+.indexpage-custom [class*=card-product] a.title {
+  color: #212529;
+  display: block;
+}
+
+.indexpage-price {
+  font-weight: 600;
+  color: #90d126;
+}
+
+.card-product-grid:hover{
+ /*box-shadow: 0 1rem 3rem rgba(0,0,0, .175);*/
+ /* box-shadow: 0 20px 20px rgba(0,0,0, .3); */
+ transition: box-shadow 0.2s ease-in-out;
+ box-shadow: 0 8px 17px 0 rgb(0 0 0 / 15%);
+}
+.indexpage-custom .custom-name{
+color: #8a6a5b;
+}
+
+
+.indexpage-row-custom>* {
+  padding-right: calc(var(--bs-gutter-x) * .1) !important;
+  padding-left: calc(var(--bs-gutter-x) * .5) !important;
+  margin-top: var(--bs-gutter-y);
+  margin-bottom: 1rem;
+}
+.indexpage-custom .label{
+      
+      margin-top: 12px;
+      border: 3px solid #20b8b124;
+      border-radius: 3px;
+      overflow: hidden;
+      flex: 1 1;
+  }
+
+.indexpage-custom .util-left{
+      float: left;
+      display: inline;
+  }
+
+.indexpage-custom .main-title {
+      padding-right: 16px;
+      font-size: 24px;
+      line-height: 30px;
+      font-weight: 700;
+      color: #506a84;
+      text-transform: Uppercase;
+  }
+
+
+  
+/**********************************/
+/********* LoadMore Button *********/
+/**********************************/
+
+  #loadMore {
+  width: 200px;
+  color: #fff;
+  display: block;
+  text-align: center;
+  margin: 20px auto;
+  padding: 10px;
+  border-radius: 10px;
+  border:3px #ee5f4a solid;
+  border-radius:30px;
+  background:#ee5f4a;
+  opacity:0.7;
+  transition: .3s;
+}
+#loadMore:hover {
+  opacity:1;
+  text-decoration: none;
+}
+
+
+
+/**********************************/
+/********* Header Search-bar *********/
+/**********************************/
+.only-search .search-header {
+  margin: auto;
+  width: 700px;
+
+}
+
+.only-search .btn {
+  font-size: 1.2rem;
+}
+
+.sperator {
+  margin: 0 5px;
+}
+
+.category-link {
+  font-weight: 600px;
+  font-size: 14px;
+}
+
+.input-group-text {
+  background-color: #16191d;
+  color: #fff;
+}
+
+.swal2-popup {
+  font-size: 14px !important;
+  font-family: Georgia, serif !important;
+  color: #8f8420 !important;
+}
+
+.swal2-confirm {
+  padding: 7px 19px !important;
+  border-radius: 2px !important;
+  background-color: #07080a !important;
+  color: #fff !important;
+  font-size: 12px !important;
+  border: 1px solid #020203 !important;
+}
