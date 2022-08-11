@@ -38,7 +38,7 @@ class ProductController extends Controller
 		$products->cate_id = $req->input('cate_id');
 		$products->name = $req->input('name');
 		$products->type = $req->input('type');
-		$products->brand = $req->input('brand');
+		//$products->brand = $req->input('brand');
 		$products->small_description = $req->input('small-description');
 		$products->description = $req->input('description');
 		$products->original_price = $req->input('original-price');
@@ -81,7 +81,7 @@ class ProductController extends Controller
 		}
 		$products->name = $req->input('name');
 		$products->type = $req->input('type');
-		$products->brand = $req->input('brand');
+		//$products->brand = $req->input('brand');
 		$products->small_description = $req->input('small-description');
 		$products->description = $req->input('description');
 		$products->original_price = $req->input('original-price');
