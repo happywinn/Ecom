@@ -16,7 +16,7 @@
 						<img src="{{asset('assets/uploads/product/'.$prod->image)}}"> 
 					</a>
 					<div class="text-wrap p-3">
-						<a href="#" class="title">{{$prod->name}}</a>
+						<a href="#" class="title">{{Str::limit($prod->name,10)}}</a>
 						<span class="badge badge-danger"> -{{$prod->discount}}% </span>
 					</div>
 				</figure>

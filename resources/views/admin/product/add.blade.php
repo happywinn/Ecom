@@ -29,7 +29,7 @@
 					</div>
 					<div class="col-md-4 mb-3">
 						<label for="">Brand</label>
-						<select class="form-select" name="cate_id">
+						<select class="form-select" name="brand_id">
 							<option>Select a Brand</option>
 							@foreach($brands as $brand)
 							<option value="{{$item->id}}">
